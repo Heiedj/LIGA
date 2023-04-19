@@ -37,7 +37,7 @@ document.querySelector('.next').addEventListener('click', function (){
 
 document.querySelector('.previous').addEventListener('click', function (){
     let slide = document.querySelectorAll('.slidee');
-    slide[previous].style.zIndex = "1";
+    slide[previous].style.zIndex = "-1";
     slide[previous].style.opacity = '0';
     slide[previous].style.transition = 'all ease 1.5s';
     previous+=1;
