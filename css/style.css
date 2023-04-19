@@ -68,75 +68,56 @@ margin-right: 10px;
     border-radius: 5px;
     border-color: rgb(0, 0, 253);
 }
-.previous{
-    position: absolute;
-    top: 0;
-    left: 0;
+.but{
+    z-index: 1;
+    width: 1440px;
     height: 500px;
-    width: 400px;
-    z-index: 10;
-}
-.next{
-    position: absolute;
-    top: 0;
-    left: 1154px;
-    height: 500px;
-    width: 400px;
-    z-index: 10;
-}
-/* .sliderLine{
-    height: 500px;
-    width: 5073px;
     display: flex;
+    position: absolute;
+    justify-content: space-between;
     align-items: center;
-    position: relative;
-    left: 0px;
-    transition: all ease 0.5s;
 }
-.sliderLine img{
-    width: 1691px;
-    height: 500px;
-} */
-/* .sliderLine img{
-    width: 1536px;
-    height: 500px;
-} */
 
 
-.sliderr{
-    width: 100%;
-    height: 500px;
-    /* align-items: center; */
-    /* display: flex; */
-    position: relative; 
-    left: 0px;  
+.slaidshow{
+    width: 1440px;
+    display: flex;
+    overflow: hidden;
 }
-.slidee{
-    width: 1536px;
-    height: 500px;
-    opacity: 1;
-    position: absolute;
-}
-.slidee img{
-    width: 1536px;
-    height: 500px;
-   
-}
-    
+.slaides{
+    width: 5760px;
+    display: flex;
+    transition: 1s;
 
-/* .oneSlide img{
-    display: none;
-} */
+}
+.slaider, .slaid{
+    height: 500px;
+}
+.slaid{
+    width: 1440px;
+}
+.slaider{
+    width: 1440px;
+    display: flex;
+} 
 .oneSlide{
-    z-index: 5;
-    position: absolute;
-    top: -216px;
+    background-image: url(/LIGA//img/slider-bg-girl@2x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .twoSlide{
-    z-index: 4;
+    background-image: url(/LIGA/img/slider-bg-main@2x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .threeSlide{
-    z-index: 3;
+    background-image: url(/LIGA/img/slider-bg-man@2x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .containerMain{
     width: 1200px;
